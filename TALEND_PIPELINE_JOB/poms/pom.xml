@@ -10,6 +10,7 @@
   <url>http://www.talend.org/</url>
   <modules>
     <module>code/routines</module>
+    <module>jobs/process_mr/snowflake_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TALEND_PIPELINE_JOB</talend.project.name>
