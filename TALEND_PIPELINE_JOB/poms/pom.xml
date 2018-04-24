@@ -9,8 +9,8 @@
   <name>TALEND_PIPELINE_JOB Codes Master</name>
   <url>http://www.talend.org/</url>
   <modules>
-    <module>code/routines</module>
     <module>jobs/process_mr/snowflake_0.1</module>
+    <module>code/routines</module>
   </modules>
   <properties>
     <talend.project.name>TALEND_PIPELINE_JOB</talend.project.name>
@@ -64,6 +64,10 @@
     </pluginManagement>
   </build>
   <profiles>
+    <profile>
+      <id>docker</id>
+      <activation />
+    </profile>
     <profile>
       <id>ci-builder</id>
       <activation>
