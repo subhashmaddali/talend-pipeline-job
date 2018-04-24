@@ -67,6 +67,11 @@
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
+      <artifactId>avro-mapred-1.7.7-hadoop2</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
       <artifactId>bonecp-0.8.0.RELEASE</artifactId>
       <version>6.0.0</version>
     </dependency>
