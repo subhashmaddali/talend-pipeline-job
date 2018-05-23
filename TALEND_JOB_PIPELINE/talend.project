@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_ANvA8V5wEeiQu_IA2dWPpA" label="talend-job-pipeline" language="java" technicalLabel="TALEND_JOB_PIPELINE" author="_ANvA8l5wEeiQu_IA2dWPpA" productVersion="Talend Cloud Real-Time Big Data Platform-7.0.1.20180411_1414" url="{&quot;location&quot;:&quot;https://github.com/tgourdel/talend-pipeline-job&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
+  <TalendProperties:Project xmi:id="_ANvA8V5wEeiQu_IA2dWPpA" label="talend-job-pipeline" description="" language="java" technicalLabel="TALEND_JOB_PIPELINE" author="_ANvA8l5wEeiQu_IA2dWPpA" productVersion="Talend Cloud Real-Time Big Data Platform-7.0.1.20180411_1414" url="{&quot;location&quot;:&quot;https://github.com/tgourdel/talend-pipeline-job&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
     <technicalStatus xmi:id="_Bh9B4F5wEeiQu_IA2dWPpA" label="development" code="DEV"/>
     <technicalStatus xmi:id="_Bh9B4V5wEeiQu_IA2dWPpA" label="testing" code="TEST"/>
     <technicalStatus xmi:id="_Bh9B4l5wEeiQu_IA2dWPpA" label="production" code="PROD"/>
