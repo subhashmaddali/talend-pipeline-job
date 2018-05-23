@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_ANvA8V5wEeiQu_IA2dWPpA" label="talend-job-pipeline" language="java" technicalLabel="TALEND_JOB_PIPELINE" author="_ANvA8l5wEeiQu_IA2dWPpA" productVersion="Talend Cloud Real-Time Big Data Platform-7.0.1.20180411_1414" url="{&quot;location&quot;:&quot;https://github.com/tgourdel/talend-pipeline-job&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" bigData="false"/>
+  <TalendProperties:User xmi:id="_ANvA8l5wEeiQu_IA2dWPpA" login="tgourdel@mba.talend.com" firstName="Thibaut" lastName="Gourdel" type="DQ"/>
+</xmi:XMI>
