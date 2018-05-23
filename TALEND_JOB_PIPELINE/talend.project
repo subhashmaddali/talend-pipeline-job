@@ -409,4 +409,8 @@
     <migrationTask xmi:id="_CoFktl5wEeiQu_IA2dWPpA" id="org.talend.repository.model.migration.AutoUpdateRelationsMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_ANvA8l5wEeiQu_IA2dWPpA" login="tgourdel@mba.talend.com" firstName="Thibaut" lastName="Gourdel" type="DQ"/>
+  <TalendProperties:User xmi:id="_qBfWUV5xEeiFkNh03S0Uxw" login="dwilmer@mba.talend.com" firstName="David" lastName="Wilmer" type="DQ"/>
+  <TalendProperties:User xmi:id="_qBfWUl5xEeiFkNh03S0Uxw" login="aswanson@mba.talend.com" firstName="Aaron" lastName="Swanson" type="DQ"/>
+  <TalendProperties:User xmi:id="_qBfWU15xEeiFkNh03S0Uxw" login="ssmith@mba.talend.com" firstName="Sam" lastName="Smith" type="DQ"/>
+  <TalendProperties:User xmi:id="_qBfWVF5xEeiFkNh03S0Uxw" login="jackie@mba.talend.com" firstName="Jacquelynn" lastName="Kapocius" type="DQ"/>
 </xmi:XMI>
