@@ -65,6 +65,10 @@
   </build>
   <profiles>
     <profile>
+      <id>docker</id>
+      <activation />
+    </profile>
+    <profile>
       <id>ci-builder</id>
       <activation>
         <activeByDefault>true</activeByDefault>
