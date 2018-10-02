@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_LMBP8MZZEei-W8j1rq0Sgg" label="DatabricksJobs" description="" language="java" technicalLabel="DATABRICKSJOBS" creationDate="2018-10-02T17:31:13.132+0200" author="_LMBP8cZZEei-W8j1rq0Sgg" productVersion="Talend Cloud Real-Time Big Data Platform-7.1.1.20180927_1104-M4" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/tgourdel/talend-pipeline-job.git&quot;,&quot;login&quot;:&quot;tgourdel&quot;,&quot;passwd&quot;:&quot;Iv0Ekbz7DsgBWU8NrMTaKw==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DI"/>
+  <TalendProperties:User xmi:id="_LMBP8cZZEei-W8j1rq0Sgg" login="tgourdel@talend.com" firstName="Talend" lastName="Talend" type="DI" additionnalData="{}"/>
+</xmi:XMI>
