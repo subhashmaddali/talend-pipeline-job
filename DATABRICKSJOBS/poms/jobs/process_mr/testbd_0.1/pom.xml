@@ -93,6 +93,11 @@
       <version>1.7.7</version>
     </dependency>
     <dependency>
+      <groupId>org.apache.avro</groupId>
+      <artifactId>avro-mapred</artifactId>
+      <version>1.7.7-hadoop2</version>
+    </dependency>
+    <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>avro-mapred-1.7.7</artifactId>
       <version>6.0.0</version>
