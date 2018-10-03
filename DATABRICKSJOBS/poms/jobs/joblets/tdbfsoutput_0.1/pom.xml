@@ -9,10 +9,10 @@
     <relativePath>../../../</relativePath>
   </parent>
   <groupId>org.example.databricksjobs.joblet</groupId>
-  <artifactId>Copy_of_tDBFSOutput</artifactId>
+  <artifactId>tDBFSOutput</artifactId>
   <version>0.1.0</version>
   <packaging>pom</packaging>
-  <name>DATABRICKSJOBS Copy_of_tDBFSOutput</name>
+  <name>DATABRICKSJOBS tDBFSOutput</name>
   <properties>
     <talend.joblet.id>_j0hpQMW1EeibOf9gq8VEVw</talend.joblet.id>
     <talend.joblet.version>0.1</talend.joblet.version>

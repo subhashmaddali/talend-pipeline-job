@@ -64,7 +64,7 @@
     </dependency>
     <dependency>
       <groupId>org.example.databricksjobs.joblet</groupId>
-      <artifactId>Copy_of_tDBFSOutput</artifactId>
+      <artifactId>tDBFSOutput</artifactId>
       <version>0.1.0</version>
       <type>pom</type>
     </dependency>
