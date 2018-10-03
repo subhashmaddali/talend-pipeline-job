@@ -11,11 +11,11 @@
   <modules>
     <module>code/routines</module>
     <module>jobs/process/test_0.1</module>
-    <module>jobs/joblets/copy_of_tdbfslist_0.1</module>
     <module>jobs/joblets/copy_of_tdbfsoutput_0.1</module>
     <module>jobs/process/databricksdbfslist_0.1</module>
     <module>jobs/process/databricksdbfswrite_0.1</module>
     <module>jobs/process_mr/databricksanalytics_0.6</module>
+    <module>jobs/joblets/tdbfslist_0.1</module>
   </modules>
   <properties>
     <talend.project.name>DATABRICKSJOBS</talend.project.name>
