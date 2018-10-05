@@ -9,19 +9,19 @@
   <name>TALENDCONNECT Codes Master</name>
   <url>http://www.talend.org/</url>
   <modules>
-    <module>code/routines</module>
-    <module>jobs/joblets/copy_of_tdbfslist_0.1</module>
     <module>jobs/process/copy_of_demo_databricks_dbfs_list_0.1</module>
-    <module>jobs/process_mr/demo_databricks_analytics_1_0.6</module>
-    <module>jobs/joblets/copy_of_tdbfsoutput_0.1</module>
     <module>jobs/process/copy_of_demo_databricks_dbfs_write_0.1</module>
+    <module>jobs/process_mr/demo_databricks_analytics_1_0.6</module>
+    <module>jobs/joblets/copy_of_tdbfslist_0.1</module>
+    <module>jobs/joblets/copy_of_tdbfsoutput_0.1</module>
+    <module>code/routines</module>
   </modules>
   <properties>
     <talend.project.name>TALENDCONNECT</talend.project.name>
     <encoding>UTF-8</encoding>
     <talend.version>7.1.1</talend.version>
-    <maven.deploy.skip>true</maven.deploy.skip>
     <talend.docker.tag>${talend.job.version}</talend.docker.tag>
+    <maven.deploy.skip>true</maven.deploy.skip>
     <talend.docker.name>${talend.project.name.lowercase}/${talend.job.folder}%a</talend.docker.name>
   </properties>
   <build>
