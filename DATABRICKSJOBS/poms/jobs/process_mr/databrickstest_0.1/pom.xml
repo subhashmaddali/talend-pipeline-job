@@ -204,8 +204,8 @@
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
-      <artifactId>talend-bigdata-launcher-platform</artifactId>
-      <version>1.2.7-20180828</version>
+      <artifactId>talend-bigdata-launcher-platform-1.2.7-20180828</artifactId>
+      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
