@@ -9,7 +9,6 @@
   <name>DATABRICKSJOBS Codes Master</name>
   <url>http://www.talend.org/</url>
   <modules>
-    <module>jobs/process/databricksdbfswrite_0.1</module>
     <module>jobs/process/test_0.1</module>
     <module>jobs/process_mr/databricksanalytics_0.6</module>
     <module>jobs/process_mr/databrickstest_0.1</module>
@@ -18,6 +17,7 @@
     <module>jobs/joblets/tdbfsoutput_0.1</module>
     <module>code/routines</module>
     <module>jobs/process/dbfs_list_files_0.1</module>
+    <module>jobs/process/dbfs_write_files_0.1</module>
   </modules>
   <properties>
     <talend.project.name>DATABRICKSJOBS</talend.project.name>
