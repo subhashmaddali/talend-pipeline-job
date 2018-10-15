@@ -10,7 +10,6 @@
   <url>http://www.talend.org/</url>
   <modules>
     <module>jobs/process/test_0.1</module>
-    <module>jobs/process_mr/databricksanalytics_0.6</module>
     <module>jobs/process_mr/databrickstest_0.1</module>
     <module>jobs/process_mr/testbd_0.1</module>
     <module>jobs/joblets/tdbfslist_0.1</module>
@@ -18,6 +17,7 @@
     <module>code/routines</module>
     <module>jobs/process/dbfslistfiles_0.1</module>
     <module>jobs/process/dbfswritefiles_0.1</module>
+    <module>jobs/process_mr/databricksanalytics_0.6</module>
   </modules>
   <properties>
     <talend.project.name>DATABRICKSJOBS</talend.project.name>
