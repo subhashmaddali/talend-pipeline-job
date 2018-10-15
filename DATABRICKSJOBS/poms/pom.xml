@@ -16,8 +16,8 @@
     <module>jobs/joblets/tdbfslist_0.1</module>
     <module>jobs/joblets/tdbfsoutput_0.1</module>
     <module>code/routines</module>
-    <module>jobs/process/dbfs_write_files_0.1</module>
     <module>jobs/process/dbfslistfiles_0.1</module>
+    <module>jobs/process/dbfswritefiles_0.1</module>
   </modules>
   <properties>
     <talend.project.name>DATABRICKSJOBS</talend.project.name>
