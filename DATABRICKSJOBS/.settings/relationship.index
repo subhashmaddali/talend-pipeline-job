@@ -285,10 +285,6 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_IFMuALHWEeipj97nCg0BUw",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
     "id" : "SQLike",
     "version" : "Latest",
     "type" : "routine"
