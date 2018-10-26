@@ -454,10 +454,6 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_HzSLsMfcEeiqJun0UQWu2w",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
     "id" : "SQLike",
     "version" : "Latest",
     "type" : "routine"
@@ -497,10 +493,6 @@
     "id" : "Mathematical",
     "version" : "Latest",
     "type" : "routine"
-  }, {
-    "id" : "_HzSLsMfcEeiqJun0UQWu2w - movies_schema",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
