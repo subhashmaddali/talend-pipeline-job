@@ -1045,6 +1045,11 @@
     "version" : "5.6.3",
     "status" : "noimpact"
   }, {
+    "id" : "org.talend.repository.model.migration.CheckProductVersionMigrationTask",
+    "breaks" : "7.1.0",
+    "version" : "7.1.1",
+    "status" : "default"
+  }, {
     "id" : "org.talend.repository.model.migration.CleanDBSchemaOntCreateTableMigrationTask",
     "breaks" : "5.2.3",
     "version" : "5.2.4",
