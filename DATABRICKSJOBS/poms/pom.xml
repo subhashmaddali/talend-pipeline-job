@@ -17,6 +17,7 @@
     <module>jobs/process_mr/databricksanalytics_0.6</module>
     <module>jobs/process/movies_0.1</module>
     <module>jobs/process/airflowtest_0.1</module>
+    <module>jobs/process/testtoto_0.1</module>
   </modules>
   <properties>
     <talend.project.name>DATABRICKSJOBS</talend.project.name>
