@@ -6,7 +6,7 @@
     <groupId>org.example.talendpipelinejob</groupId>
     <artifactId>code.Master</artifactId>
     <version>7.0.1</version>
-    <relativePath>../../../../</relativePath>
+    <relativePath>../../../</relativePath>
   </parent>
   <groupId>org.example.talendpipelinejob.job</groupId>
   <artifactId>Step_02_Train_MarketingCampaignData</artifactId>
@@ -28,18 +28,18 @@
     <talend.pigudf.groupid>org.example.talendpipelinejob.pigudf</talend.pigudf.groupid>
     <talend.routine.groupid>org.example.talendpipelinejob.code</talend.routine.groupid>
     <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
-    <talend.job.jvmargs>-Xms256M -Xmx512M -Dhdp.version=2.4.0.0-169 -Dfile.encoding=UTF-8 </talend.job.jvmargs>
-    <talend.project.branch>@ProjectBranch@</talend.project.branch>
-    <talend.job.context>Default</talend.job.context>
+    <talend.job.jvmargs>-Xms256M -Xmx512M -Dhdp.version=2.4.0.0-169 -Dfile.encoding=UTF-8</talend.job.jvmargs>
     <talend.job.stat>true</talend.job.stat>
+    <talend.job.context>Default</talend.job.context>
+    <talend.project.branch>@ProjectBranch@</talend.project.branch>
     <talend.job.date>${maven.build.timestamp}</talend.job.date>
     <current.resources.dir>${basedir}/src/main/ext-resources</current.resources.dir>
     <talend.job.name>Step_02_Train_MarketingCampaignData</talend.job.name>
     <talend.job.id>_DNHygKT0EeaK35A-52KbZA</talend.job.id>
     <talend.project.id>0</talend.project.id>
-    <project.distribution-management.repository.url>${project.distributionManagement.repository.url}</project.distribution-management.repository.url>
-    <talend.job.framework>Spark</talend.job.framework>
     <talend.job.folder>realtimeriskassessmentengine/</talend.job.folder>
+    <talend.job.framework>Spark</talend.job.framework>
+    <project.distribution-management.repository.url>${project.distributionManagement.repository.url}</project.distribution-management.repository.url>
     <talend.job.type>Big_Data_Batch</talend.job.type>
   </properties>
   <dependencies>
@@ -1085,8 +1085,8 @@
       </activation>
       <properties>
         <templates.dir>${basedir}/src/main/templates/</templates.dir>
-        <assemblies.dir>${basedir}/src/main/assemblies/</assemblies.dir>
         <poms.dir>${basedir}</poms.dir>
+        <assemblies.dir>${basedir}/src/main/assemblies/</assemblies.dir>
       </properties>
     </profile>
     <profile>
@@ -1106,8 +1106,8 @@
       <properties>
         <talend.pigudf.excludes.set>org.talend.pigudf.${talend.project.name.lowercase}:*</talend.pigudf.excludes.set>
         <talend.libraries.excludes.set>${talend.libraries.includes.set}</talend.libraries.excludes.set>
-        <talend.jobs.excludes.set>${project.groupId}:*</talend.jobs.excludes.set>
         <talend.code.excludes.set>org.talend.code.${talend.project.name.lowercase}:*</talend.code.excludes.set>
+        <talend.jobs.excludes.set>${project.groupId}:*</talend.jobs.excludes.set>
         <talend.libraries.includes.set>org.talend.libraries:*</talend.libraries.includes.set>
         <current.job.binaries.include>${project.groupId}:${project.artifactId}:${project.version}</current.job.binaries.include>
       </properties>
