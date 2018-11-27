@@ -13,8 +13,8 @@
     <module>code/routines</module>
     <module>jobs/process_storm/RealTimeRiskAssessmentEngine/step_03_realtimeconversionprediction_0.1</module>
     <module>jobs/process/uploaddatatodbfs_0.1</module>
-    <module>jobs/process_mr/RealTimeRiskAssessmentEngine/step_02bis_test_marketingcampaigndata_0.1</module>
     <module>jobs/process_mr/step_02_train_marketingcampaigndata_0.1</module>
+    <module>jobs/process_mr/step_02bis_test_marketingcampaigndata_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TALENDPIPELINEJOB</talend.project.name>
