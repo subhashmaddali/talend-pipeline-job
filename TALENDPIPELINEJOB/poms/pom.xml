@@ -9,15 +9,15 @@
   <name>TALENDPIPELINEJOB Codes Master</name>
   <url>http://www.talend.org/</url>
   <modules>
-    <module>jobs/process/publishtocloud_0.1</module>
-    <module>code/routines</module>
-    <module>jobs/process_storm/RealTimeRiskAssessmentEngine/step_03_realtimeconversionprediction_0.1</module>
     <module>jobs/process/uploaddatatodbfs_0.1</module>
+    <module>jobs/process/publishtocloud_0.1</module>
+    <module>jobs/process/uploadtodbfs_0.1</module>
     <module>jobs/process_mr/step_02_train_marketingcampaigndata_0.1</module>
     <module>jobs/process_mr/step_02bis_test_marketingcampaigndata_0.1</module>
-    <module>jobs/process/uploadtodbfs_0.1</module>
     <module>jobs/process_mr/test_model_marketingcampaigns_0.1</module>
     <module>jobs/process_mr/train_model_marketingcampaigns_0.1</module>
+    <module>jobs/process_storm/RealTimeRiskAssessmentEngine/step_03_realtimeconversionprediction_0.1</module>
+    <module>code/routines</module>
   </modules>
   <properties>
     <talend.project.name>TALENDPIPELINEJOB</talend.project.name>
@@ -92,7 +92,63 @@
   <profiles>
     <profile>
       <id>docker</id>
-      <activation />
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>io.fabric8</groupId>
+            <artifactId>fabric8-maven-plugin</artifactId>
+            <version>3.5.37</version>
+            <executions>
+              <execution>
+                <id>start</id>
+                <phase>install</phase>
+                <goals>
+                  <goal>build</goal>
+                </goals>
+              </execution>
+              <execution>
+                <id>push-image</id>
+                <phase>deploy</phase>
+                <goals>
+                  <goal>push</goal>
+                </goals>
+              </execution>
+            </executions>
+            <configuration>
+              <skip>${docker.skip}</skip>
+              <autoPull>once</autoPull>
+              <images>
+                <image>
+                  <name>${talend.docker.name}</name>
+                  <build>
+                    <from>openjdk:8-jre-slim</from>
+                    <tags>
+                      <tag>${talend.docker.tag}</tag>
+                    </tags>
+                    <env>
+                      <JAVA_OPTS>${talend.job.jvmargs}</JAVA_OPTS>
+                    </env>
+                    <runCmds>
+                      <run>chmod +x /maven/${talend.job.name}/${talend.job.name}_run.sh</run>
+                      <run>sed -i 's/ -Xms[0-9]*M//g' /maven/${talend.job.name}/${talend.job.name}_run.sh</run>
+                      <run>sed -i 's/-Xmx[0-9]*M/$JAVA_OPTS/g' /maven/${talend.job.name}/${talend.job.name}_run.sh</run>
+                    </runCmds>
+                    <workdir>/maven/${talend.job.name}</workdir>
+                    <entryPoint>
+                      <exec>
+                        <arg>./${talend.job.name}_run.sh</arg>
+                      </exec>
+                    </entryPoint>
+                    <assembly>
+                      <descriptor>${basedir}/src/main/assemblies/assembly.xml</descriptor>
+                    </assembly>
+                  </build>
+                </image>
+              </images>
+            </configuration>
+          </plugin>
+        </plugins>
+      </build>
     </profile>
     <profile>
       <id>cloud-publisher</id>

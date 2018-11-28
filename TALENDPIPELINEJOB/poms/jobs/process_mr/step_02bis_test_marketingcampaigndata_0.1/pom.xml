@@ -28,18 +28,18 @@
     <talend.pigudf.groupid>org.example.talendpipelinejob.pigudf</talend.pigudf.groupid>
     <talend.routine.groupid>org.example.talendpipelinejob.code</talend.routine.groupid>
     <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
-    <talend.job.jvmargs>-Xms256M -Xmx512M -Dhdp.version=2.4.0.0-169 -Dfile.encoding=UTF-8</talend.job.jvmargs>
-    <talend.job.stat>true</talend.job.stat>
-    <talend.job.context>Default</talend.job.context>
+    <talend.job.jvmargs>-Xms256M -Xmx512M -Dhdp.version=2.4.0.0-169 -Dfile.encoding=UTF-8 </talend.job.jvmargs>
     <talend.project.branch>@ProjectBranch@</talend.project.branch>
+    <talend.job.context>Default</talend.job.context>
+    <talend.job.stat>true</talend.job.stat>
     <talend.job.date>${maven.build.timestamp}</talend.job.date>
     <current.resources.dir>${basedir}/src/main/ext-resources</current.resources.dir>
     <talend.job.name>Step_02bis_Test_MarketingCampaignData</talend.job.name>
     <talend.job.id>_DNHygaT0EeaK35A-52KbZA</talend.job.id>
     <talend.project.id>0</talend.project.id>
-    <talend.job.folder>realtimeriskassessmentengine/</talend.job.folder>
-    <talend.job.framework>Spark</talend.job.framework>
     <project.distribution-management.repository.url>${project.distributionManagement.repository.url}</project.distribution-management.repository.url>
+    <talend.job.folder></talend.job.folder>
+    <talend.job.framework>Spark</talend.job.framework>
     <talend.job.type>Big_Data_Batch</talend.job.type>
   </properties>
   <dependencies>
