@@ -28,7 +28,7 @@
     <talend.pigudf.groupid>org.example.talendpipelinejob.pigudf</talend.pigudf.groupid>
     <talend.routine.groupid>org.example.talendpipelinejob.code</talend.routine.groupid>
     <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
-    <talend.job.jvmargs>-Xms256M -Xmx512M -Dhdp.version=2.4.0.0-169 -Dfile.encoding=UTF-8 </talend.job.jvmargs>
+    <talend.job.jvmargs>-Xms256M -Xmx1024M -Dfile.encoding=UTF-8 </talend.job.jvmargs>
     <talend.project.branch>@ProjectBranch@</talend.project.branch>
     <talend.job.context>Default</talend.job.context>
     <talend.job.stat>true</talend.job.stat>
