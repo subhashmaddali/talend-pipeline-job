@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2018-11-28T14:47:32.936+0100">
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2018-11-28T14:48:34.266+0100">
   <deletedFolders>process_mr/RealTimeRiskAssessmentEngine</deletedFolders>
   <deletedItems id="_NgfdULwvEeirxbi1S0V3hQ" path="" type="PROCESS"/>
   <deletedItems id="_26_hkPJcEei2UrVvWd9VpQ" path="" type="PROCESS"/>
+  <deletedItems id="_DNHygKT0EeaK35A-52KbZA" path="" type="PROCESS_MR"/>
+  <deletedItems id="_DNHygaT0EeaK35A-52KbZA" path="" type="PROCESS_MR"/>
 </recyclebin:RecycleBin>
