@@ -15,13 +15,16 @@
     <module>jobs/process/uploaddatatodbfs_0.1</module>
     <module>jobs/process_mr/step_02_train_marketingcampaigndata_0.1</module>
     <module>jobs/process_mr/step_02bis_test_marketingcampaigndata_0.1</module>
+    <module>jobs/process/uploadtodbfs_0.1</module>
+    <module>jobs/process_mr/test_model_marketingcampaigns_0.1</module>
+    <module>jobs/process_mr/train_model_marketingcampaigns_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TALENDPIPELINEJOB</talend.project.name>
     <encoding>UTF-8</encoding>
     <talend.version>7.1.1</talend.version>
-    <maven.deploy.skip>true</maven.deploy.skip>
     <talend.docker.tag>${project.version}</talend.docker.tag>
+    <maven.deploy.skip>true</maven.deploy.skip>
     <talend.docker.name>${talend.project.name.lowercase}/${talend.job.folder}%a</talend.docker.name>
   </properties>
   <build>
