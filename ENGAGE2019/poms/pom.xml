@@ -11,8 +11,8 @@
   <modules>
     <module>code/routines</module>
     <module>jobs/process/coucou_0.1</module>
-    <module>jobs/process/publishtocloud_0.1</module>
-    <module>jobs/process/publishtocloud_1.0</module>
+    <module>jobs/process/publishtocloudtest_1.0</module>
+    <module>jobs/process/publishtocloudtest_0.1</module>
   </modules>
   <properties>
     <talend.project.name>ENGAGE2019</talend.project.name>
